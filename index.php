@@ -12,6 +12,7 @@ if(isset($_FILES['userfile']))
 }
 if(isset($_GET['del']))
 	{
+		//Deoleting image
 
 		$img=$_GET['del'];
 		if(file_exists($img)):
